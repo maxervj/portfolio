@@ -1,0 +1,65 @@
+<changelist name="Changes" date="1765803519631" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" />
+  <option name="DESCRIPTION" value="Changes" />
+  <binary>
+    <option name="BEFORE_PATH" value="src/app/blog/posts/blog.mdx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/app/blog/posts/components.mdx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/app/blog/posts/content.mdx" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="public/images/gallery/expressjs.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/expressjs.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="public/images/projects/project-01/lnj-Logo.webp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/lnj-Logo.webp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/app/blog/posts/localization.mdx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/app/blog/posts/mailchimp.mdx" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="public/images/gallery/node.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/node.jpg" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/app/blog/posts/pages.mdx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/app/blog/posts/password.mdx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/app/blog/posts/quick-start.mdx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/app/blog/posts/seo.mdx" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="public/images/projects/project-01/shô.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/shô.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/app/blog/posts/styling.mdx" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="public/images/gallery/Symfony-Image.jpg" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Symfony-Image.jpg" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="public/images/gallery/typescript.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/typescript.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="public/images/gallery/vignette-symfony-1-1024x614.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/vignette-symfony-1-1024x614.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="src/app/blog/posts/work.mdx" />
+  </binary>
+</changelist>
