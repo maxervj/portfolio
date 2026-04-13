@@ -2,20 +2,20 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  firstName: "Merveille",
+  lastName: "Makosi",
+  name: `Merveille Makosi`,
+  role: "Étudiants BTS SIO Option SLAM",
+  avatar: "/images/merveille.jpg",
+  email: "mpotomerveille@gmail.com",
+  location: "Europe/Paris", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["Fançais", "Anglais"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
-  display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  display: false,
+  title: <>S'abonner à la newsletter de {person.firstName}</>,
+  description: <>Ma newsletter hebdomadaire sur la créativité et l'ingénierie</>,
 };
 
 const social: Social = [
@@ -25,13 +25,13 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/maxervj",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/nathan-makosi-mpoto-a476b3268/",
     essential: true,
   },
   {
@@ -39,12 +39,6 @@ const social: Social = [
     icon: "instagram",
     link: "https://www.instagram.com/once_ui/",
     essential: false,
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-    essential: true,
   },
   {
     name: "Email",
@@ -57,10 +51,10 @@ const social: Social = [
 const home: Home = {
   path: "/",
   image: "/images/og/home.jpg",
-  label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  label: "Accueil",
+  title: `Portfolio de ${person.name}`,
+  description: `Site portfolio présentant mon travail en tant que ${person.role}`,
+  headline: <>Construire des ponts entre le design et le code</>,
   featured: {
     display: true,
     title: (
@@ -76,16 +70,16 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    Je suis Merveille Makosi, étudiant en BTS SIO Option SLAM, passionné par le développement <br /> de solutions logicielles et d'applications innovantes.
 </>
   ),
 };
 
 const about: About = {
-  path: "/about",
-  label: "About",
-  title: `About – ${person.name}`,
-  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  path: "/",
+  label: "À propos",
+  title: `À propos – ${person.name}`,
+  description: `Découvrez ${person.name}, ${person.role} basé à ${person.location}`,
   tableOfContent: {
     display: true,
     subItems: false,
@@ -102,28 +96,28 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Bonjour, je suis Merveille Makosi, étudiant passionné spécialisé dans les solutions
+        logicielles et les applications. Je me nourris de la transformation de problèmes complexes
+        en designs élégants et intuitifs. Avec un souci du détail et un engagement envers
+        l'excellence, je vise à créer des expériences numériques impactantes qui résonnent avec
+        les utilisateurs et stimulent l'innovation.
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "Expériences Professionnelles",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Royaume des Plaques & Clés",
+        timeframe: " June 2025 - July 2025",
+        role: "Stage Développeur Web",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+           Création d'un site web dynamique pour un client local, augmentant la visibilité en ligne.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Travail en solo pour développer des fonctionnalités interactives, améliorant l'expérience utilisateur.
           </>,
         ],
         images: [
@@ -137,17 +131,56 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "LNJ École de de conduite",
+        timeframe: "Janvier 2026-Mars 2026",
+        role: "Développeur Web Stagiaire",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Création d'une site web interactif pour une auto-école locale, augmentant les inscriptions en ligne  et  hébergeant le site web.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+           Réalisé en solo, intégrant des fonctionnalités de réservation en ligne et de gestion des cours.
+          </>,
+        ],
+        images: [
+            {
+                src: "/images/projects/project-01/lnj-Logo.webp",
+                alt: "Once UI Project",
+                width: 16,
+                height: 9,
+            },
+        ],
+      },
+      {
+        company: "Auto-école des 3 frontières",
+        timeframe: "Avril 2026-Juin 2026",
+        role: "Développeur Web Stagiaire",
+        achievements: [
+          <>
+            Développement d'un site web pour une auto-école locale, améliorant la gestion des réservations et la communication avec les clients.
+          </>,
+          <>
+            Projet réalisé en solo, intégrant des fonctionnalités de réservation en ligne et de gestion des cours.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Conventio",
+        timeframe: "2026",
+        role: "Développeur Web Stagiaire",
+        achievements: [
+          <>
+            Développement d'une application web de gestion de conventions intégrant l'API Yousign pour la signature électronique des documents.
+          </>,
+          <>
+            Mise en place du flux de signature : génération des documents, envoi aux signataires et suivi du statut en temps réel via les webhooks Yousign.
+          </>,
+          <>
+            Intégration de Gotenberg pour la conversion et la génération de documents PDF à partir de templates HTML, alimentant directement le flux de signature.
+          </>,
+          <>
+            Projet réalisé en solo, de la conception de l'architecture à la mise en production.
           </>,
         ],
         images: [],
@@ -156,43 +189,43 @@ const about: About = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Études",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Lycée Gabriel Fauré",
+        description: <>BTS SIO Option Slam</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Lycée Charles Poncet ",
+        description: <>BTS Ciel option B</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Compétences techniques",
     skills: [
       {
-        title: "Figma",
+        title: "Symfony",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Réalisations d'applications avec le framework Symfony</>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
+            name: "Symfony",
+            icon: "Symfony",
           },
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/gallery/Symfony-Image.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/gallery/vignette-symfony-1-1024x614.png",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -200,28 +233,60 @@ const about: About = {
         ],
       },
       {
-        title: "Next.js",
+        title: "Node.js",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Création de serveurs et d'API Rest avec Node.js, Express.js et typeScript</>
         ),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
+            name: "Node.js",
+            icon: "nodejs",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "Express.js",
+            icon: "express",
           },
+            { name: "TypeScript",
+            icon: "TypeScript",}
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+            {
+                src: "/images/gallery/node.jpg",
+                alt: "Project image",
+                width: 16,
+                height: 9,
+            },
+            {
+                src: "/images/gallery/expressjs.png",
+                alt: "Project image",
+                width: 16,
+                height: 9,
+            },
+            {
+                src: "/images/gallery/typescript.png",
+                alt: "Project image",
+                width: 16,
+                height: 9,
+            }
+        ],
+      },
+      {
+        title: "C#",
+        description: (
+          <>Création d'applications avec le framework .NET</>
+        ),
+        tags: [
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: ".NET",
+            icon: "dotnet",
           },
+
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-01/dotnet.png",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -232,29 +297,59 @@ const about: About = {
   },
 };
 
+const certifications: Array<{
+  title: string;
+  issuer: string;
+  status: "en-cours" | "obtenu";
+  expectedDate?: string;
+  obtainedDate?: string;
+  description: string;
+  icon: string;
+  color: string;
+}> = [
+  {
+    title: "Introduction to Cybersecurity",
+    issuer: "Cisco Networking Academy",
+    status: "en-cours",
+    expectedDate: "2026",
+    description: "Fondamentaux de la cybersécurité : menaces, vulnérabilités et protection des réseaux.",
+    icon: "rocket",
+    color: "brand",
+  },
+  {
+    title: "Python Essentials 1",
+    issuer: "Cisco Networking Academy",
+    status: "en-cours",
+    expectedDate: "2026",
+    description: "Bases de la programmation Python : syntaxe, structures de données et algorithmes.",
+    icon: "document",
+    color: "accent",
+  },
+];
+
 const blog: Blog = {
-  path: "/blog",
-  label: "Blog",
-  title: "Writing about design and tech...",
-  description: `Read what ${person.name} has been up to recently`,
+  path: "/certif",
+  label: "Certifications",
+  title: "Certifications et formations",
+  description: `Les certifications et formations de ${person.name}`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
-  // All posts will be listed on the /blog route
+  // All posts will be listed on the /certif route
 };
 
 const work: Work = {
   path: "/work",
-  label: "Work",
-  title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
+  label: "Projets Pro",
+  title: `Projets Professionnels – ${person.name}`,
+  description: `Projets professionnels réalisés par ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
 
 const gallery: Gallery = {
   path: "/gallery",
-  label: "Gallery",
-  title: `Photo gallery – ${person.name}`,
-  description: `A photo collection by ${person.name}`,
+  label: "Galerie",
+  title: `Galerie photos – ${person.name}`,
+  description: `Collection de photos par ${person.name}`,
   // Images by https://lorant.one
   // These are placeholder images, replace with your own
   images: [
@@ -301,4 +396,4 @@ const gallery: Gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, blog, work, gallery, certifications };

@@ -13,16 +13,16 @@ import {
   RevealFx,
   SpacingToken,
 } from "@once-ui-system/core";
-import { Footer, Header, RouteGuard, Providers } from "@/components";
-import { baseURL, effects, fonts, style, dataStyle, home } from "@/resources";
+import { Footer, Header, RouteGuard, Providers, MouseLight } from "@/components";
+import { baseURL, effects, fonts, style, dataStyle, about } from "@/resources";
 
 export async function generateMetadata() {
   return Meta.generate({
-    title: home.title,
-    description: home.description,
+    title: about.title,
+    description: about.description,
     baseURL: baseURL,
-    path: home.path,
-    image: home.image,
+    path: about.path,
+    image: `/api/og/generate?title=${encodeURIComponent(about.title)}`,
   });
 }
 
@@ -35,7 +35,7 @@ export default async function RootLayout({
     <Flex
       suppressHydrationWarning
       as="html"
-      lang="en"
+      lang="fr"
       fillWidth
       className={classNames(
         fonts.heading.variable,
@@ -155,6 +155,7 @@ export default async function RootLayout({
               }}
             />
           </RevealFx>
+          <MouseLight />
           <Flex fillWidth minHeight="16" s={{ hide: true }} />
           <Header />
           <Flex zIndex={0} fillWidth padding="l" horizontal="center" flex={1}>
