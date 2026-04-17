@@ -1,6 +1,6 @@
 export { Header } from "@/components/Header";
+export { EmailButton } from "@/components/EmailButton";
 export { MouseLight } from "@/components/MouseLight";
-export { ContactForm } from "@/components/ContactForm";
 export { Footer } from "@/components/Footer";
 export { Mailchimp } from "@/components/Mailchimp";
 export { ProjectCard } from "@/components/ProjectCard";

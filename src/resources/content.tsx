@@ -76,7 +76,7 @@ const home: Home = {
 };
 
 const about: About = {
-  path: "/",
+  path: "/about",
   label: "À propos",
   title: `À propos – ${person.name}`,
   description: `Découvrez ${person.name}, ${person.role} basé à ${person.location}`,
