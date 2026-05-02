@@ -11,7 +11,6 @@ import {
   Schema,
 } from "@once-ui-system/core";
 import { baseURL, person, social } from "@/resources";
-import { EmailButton } from "@/components";
 
 const contact = {
   path: "/contact",
@@ -139,8 +138,6 @@ export default function Contact() {
         </Column>
       </Column>
 
-      {/* Lien direct Gmail — email assemblé côté client uniquement */}
-      <EmailButton user="mpotomerveille" domain="gmail.com" />
     </Column>
   );
 }

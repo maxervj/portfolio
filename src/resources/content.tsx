@@ -120,20 +120,13 @@ const about: About = {
             Travail en solo pour développer des fonctionnalités interactives, améliorant l'expérience utilisateur.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
         company: "LNJ École de de conduite",
         timeframe: "Janvier 2026-Mars 2026",
         role: "Développeur Web Stagiaire",
+        link: "https://lnjecoledeconduite.fr/",
         achievements: [
           <>
             Création d'une site web interactif pour une auto-école locale, augmentant les inscriptions en ligne  et  hébergeant le site web.
@@ -142,36 +135,16 @@ const about: About = {
            Réalisé en solo, intégrant des fonctionnalités de réservation en ligne et de gestion des cours.
           </>,
         ],
-        images: [
-            {
-                src: "/images/projects/project-01/lnj-Logo.webp",
-                alt: "Once UI Project",
-                width: 16,
-                height: 9,
-            },
-        ],
-      },
-      {
-        company: "Auto-école des 3 frontières",
-        timeframe: "Avril 2026-Juin 2026",
-        role: "Développeur Web Stagiaire",
-        achievements: [
-          <>
-            Développement d'un site web pour une auto-école locale, améliorant la gestion des réservations et la communication avec les clients.
-          </>,
-          <>
-            Projet réalisé en solo, intégrant des fonctionnalités de réservation en ligne et de gestion des cours.
-          </>,
-        ],
         images: [],
       },
       {
         company: "Conventio",
         timeframe: "2026",
-        role: "Développeur Web Stagiaire",
+        role: "Projet BTS SIO",
+        link: "https://github.com/maxervj/Conventio",
         achievements: [
           <>
-            Développement d'une application web de gestion de conventions intégrant l'API Yousign pour la signature électronique des documents.
+            Développement d'une application web de digitalisation des conventions intégrant l'API Yousign pour la signature électronique des documents.
           </>,
           <>
             Mise en place du flux de signature : génération des documents, envoi aux signataires et suivi du statut en temps réel via les webhooks Yousign.
@@ -181,6 +154,26 @@ const about: About = {
           </>,
           <>
             Projet réalisé en solo, de la conception de l'architecture à la mise en production.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Coach Jean Formation",
+        timeframe: "2026",
+        role: "Projet Personnel — Plateforme de formation en ligne",
+        achievements: [
+          <>
+            Conception d'une plateforme e-learning complète avec deux espaces distincts : espace élève (accès aux formations, suivi de progression, historique, recommandations personnalisées) et espace formateur (création de compte, dépôt de formations vidéo, suivi des ventes).
+          </>,
+          <>
+            Catalogue de formations structuré en 8 catégories : Permis & Conduite, Développement personnel, Business & Entrepreneuriat, Compétences professionnelles, Métiers & Formations, Bien-être, Langues, Vie pratique — avec filtres et recherche.
+          </>,
+          <>
+            Intégration d'un système de paiement en ligne, d'un lecteur vidéo fluide et d'un moteur de recommandations basé sur l'historique de l'utilisateur.
+          </>,
+          <>
+            Architecture évolutive pensée pour une future application mobile et un système d'abonnement. Site entièrement optimisé mobile, design sobre fond noir/blanc.
           </>,
         ],
         images: [],

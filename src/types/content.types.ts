@@ -152,6 +152,8 @@ export interface About extends BasePageConfig {
       role: string;
       /** Achievements at the company */
       achievements: string[];
+      /** Link to the live project */
+      link?: string;
       /** Images related to the experience */
       images?: Array<{
         /** Image source path */

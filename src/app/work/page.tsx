@@ -132,6 +132,7 @@ export default function Work() {
               timeframe={exp.timeframe}
               role={exp.role}
               achievements={exp.achievements}
+              link={exp.link}
               images={exp.images}
               index={index}
             />

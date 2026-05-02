@@ -9,6 +9,7 @@ interface WorkProjectCardProps {
   timeframe: string;
   role: string;
   achievements: React.ReactNode[];
+  link?: string;
   images?: { src: string; alt: string; width: number; height: number }[];
   index: number;
 }
@@ -18,6 +19,7 @@ export function WorkProjectCard({
   timeframe,
   role,
   achievements,
+  link,
   images = [],
   index,
 }: WorkProjectCardProps) {
@@ -170,6 +172,49 @@ export function WorkProjectCard({
                   ))}
                 </Row>
               </Column>
+            )}
+            {/* Lien vers le site */}
+            {link && (
+              <Row
+                style={{
+                  opacity: open ? 1 : 0,
+                  transform: open ? "translateY(0)" : "translateY(8px)",
+                  transition: "opacity 0.3s ease 300ms, transform 0.3s ease 300ms",
+                }}
+              >
+                <a
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    padding: "10px 18px",
+                    borderRadius: "8px",
+                    background: "rgba(139,92,246,0.12)",
+                    border: "1px solid rgba(139,92,246,0.3)",
+                    color: "inherit",
+                    textDecoration: "none",
+                    fontSize: "14px",
+                    fontWeight: 500,
+                    transition: "background 0.2s ease, border-color 0.2s ease",
+                  }}
+                  onMouseEnter={(e) => {
+                    (e.currentTarget as HTMLAnchorElement).style.background = "rgba(139,92,246,0.22)";
+                    (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(139,92,246,0.6)";
+                  }}
+                  onMouseLeave={(e) => {
+                    (e.currentTarget as HTMLAnchorElement).style.background = "rgba(139,92,246,0.12)";
+                    (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(139,92,246,0.3)";
+                  }}
+                >
+                  <Icon name={link?.includes("github.com") ? "github" : "globe"} size="s" onBackground="brand-weak" />
+                  {link?.includes("github.com") ? "Voir sur GitHub" : "Visiter le site"}
+                  <Icon name="arrowUpRight" size="s" onBackground="brand-weak" />
+                </a>
+              </Row>
             )}
           </Column>
         </div>

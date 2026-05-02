@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697b49c9-befe-4b8c-9211-d1b2ec533d39" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="697b49c9-befe-4b8c-9211-d1b2ec533d39" name="Changes" comment="innit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/work/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/work/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MouseLight.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/work/WorkProjectCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/WorkProjectCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/content.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/content.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/content.types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,20 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/m3rv3/PhpstormProjects/portfolio" value="36FOUDSRaRiMXDvoQD8LLrVO2hA" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="GPT-5 mini" />
+      <entry key="agent-panel" value="GPT-5 mini" />
+    </selectedModels>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="151" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +51,10 @@
     &quot;accountId&quot;: &quot;0a7728f8-65bf-421c-8bba-e8f140cb69a3&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$PROJECT_DIR$/../../../../wamp64/bin/php/php8.3.14/php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -42,25 +66,30 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/m3rv3/PhpstormProjects/portfolio/public/images/projects/project-01&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/m3rv3/PhpstormProjects/portfolio/public/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2025.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\m3rv3\\PhpstormProjects\\portfolio\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\m3rv3\PhpstormProjects\portfolio\public\images" />
       <recent name="C:\Users\m3rv3\PhpstormProjects\portfolio\public\images\projects\project-01" />
       <recent name="C:\Users\m3rv3\PhpstormProjects\portfolio\public\images\gallery" />
     </key>
@@ -83,8 +112,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-PS-252.28238.9" />
-        <option value="bundled-php-predefined-a98d8de5180a-58f58c5035b3-com.jetbrains.php.sharedIndexes-PS-252.28238.9" />
+        <option value="bundled-php-predefined-a98d8de5180a-0e0d91225499-com.jetbrains.php.sharedIndexes-PS-253.31033.138" />
       </set>
     </attachedChunks>
   </component>
@@ -99,11 +127,47 @@
       <workItem from="1764666785837" duration="348000" />
       <workItem from="1764667209497" duration="13000" />
       <workItem from="1765799525722" duration="4172000" />
+      <workItem from="1765803752062" duration="1094000" />
+      <workItem from="1765879578882" duration="64000" />
+      <workItem from="1767972626212" duration="2324000" />
+      <workItem from="1768329456342" duration="16000" />
+      <workItem from="1772558135680" duration="1742000" />
+      <workItem from="1772827843400" duration="15000" />
+      <workItem from="1774623052961" duration="2865000" />
+      <workItem from="1774949397401" duration="129000" />
+      <workItem from="1776107734025" duration="5528000" />
+      <workItem from="1776463134324" duration="2829000" />
+      <workItem from="1777554394717" duration="261000" />
+      <workItem from="1777747865814" duration="3566000" />
     </task>
+    <task id="LOCAL-00001" summary="innit">
+      <option name="closed" value="true" />
+      <created>1765803851713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765803851713</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="innit" />
+    <option name="LAST_COMMIT_MESSAGE" value="innit" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

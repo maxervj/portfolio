@@ -13,7 +13,7 @@ import {
   RevealFx,
   SpacingToken,
 } from "@once-ui-system/core";
-import { Footer, Header, RouteGuard, Providers, MouseLight } from "@/components";
+import { Footer, Header, RouteGuard, Providers } from "@/components";
 import { baseURL, effects, fonts, style, dataStyle, about } from "@/resources";
 
 export async function generateMetadata() {
@@ -155,8 +155,7 @@ export default async function RootLayout({
               }}
             />
           </RevealFx>
-          <MouseLight />
-          <Flex fillWidth minHeight="16" s={{ hide: true }} />
+<Flex fillWidth minHeight="16" s={{ hide: true }} />
           <Header />
           <Flex zIndex={0} fillWidth padding="l" horizontal="center" flex={1}>
             <Flex horizontal="center" fillWidth minHeight="0">
